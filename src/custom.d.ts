@@ -7,4 +7,5 @@ declare module "*.ttf";
 // Declaração global para o Spotify Web Playback SDK
 interface Window {
   Spotify: any;
+  onSpotifyWebPlaybackSDKReady: (() => void) | undefined;
 }
