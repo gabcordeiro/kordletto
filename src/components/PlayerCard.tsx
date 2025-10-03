@@ -16,13 +16,17 @@ const PlayerCard: React.FC<PlayerCardProps> = ({ trackUri, token }) => {
       document.body.appendChild(script);
     }
 
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      const _player = new window.Spotify.Player({
-        name: "My Web Player",
-        getOAuthToken: (cb) => {
-          cb(token);
-        },
-      });
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const _player = new window.Spotify.Player({
+    name: "My Web Player",
+    getOAuthToken: (cb: (token: string) => void) => {
+      cb("BQABnzM-R8X5rBQblCGCWmlDyORtr8nwAiZrFuEXpiOg01VPpXTGqMPU9KYw3rU6db92NBKlTPTnPfKB_ucHwJ8MNC_yrTpMwxC5bZjWQb79eLLf2E8Q7jM-ZjuufWDRL4U00rR7viC3BnlFNz4yqbO99NsvB05z99S5zvACzcxLmR4x3lA80XGdbaK_NfHVGBWLDvbkv4mRXm9udTHId4k4RLvN3P02UIth1HRNsU-9btrSu428gfQX37ldvpp3xkZiVumNQt0Yb-FVj-8BFW3MEeZqW5eSSiYxCBgEiN8w1w");
+    },
+    volume: 0.5,
+  });
+
+  _player.connect();
+};
 
       _player.addListener("ready", ({ device_id }) => {
         console.log("Ready with Device ID", device_id);
