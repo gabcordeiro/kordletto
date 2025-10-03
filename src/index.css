@@ -149,10 +149,11 @@ footer a {
 
 @font-face {
   font-family: "Talks";
-  src: url("./fonts/Talks.ttf") format("truetype");
+  src: url("./components/fonts/Talks.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 .header h1 {
   font-family: "Talks", sans-serif; /* apenas h1 usa Talks */
   font-size: 5rem;
