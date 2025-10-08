@@ -3,10 +3,11 @@
 
 Um projeto simples para mostrar as músicas dos artistas Kord & Polleto com integração do Spotify Web Playback SDK para tocar as faixas diretamente no site.
 
+<img width="630" height="604" alt="Captura de tela 2025-10-08 170022" src="https://github.com/user-attachments/assets/63df7d3d-80db-48f4-9a00-f418c1e08763" />
+
 <img width="630" height="604" alt="image" src="https://github.com/user-attachments/assets/49d2bfb9-f35c-4a88-abfb-5ef1637e8126" />
-<img width="630" height="604" alt="image" src="https://github.com/user-attachments/assets/3e9ab43d-4dbe-4be4-b8cd-c80bc4512d95" />
+
 <img width="637" height="602" alt="Captura de tela 2025-10-08 170015" src="https://github.com/user-attachments/assets/80ae3c87-af89-4b3c-80d4-8a36458f6edf" />
-<img width="630" height="604" alt="Captura de tela 2025-10-08 170022" src="https://github.com/user-attachments/assets/f1926320-72a9-4fd8-a3bc-e841962b3170" />
 
 # 🎵 Funcionalidades
 
